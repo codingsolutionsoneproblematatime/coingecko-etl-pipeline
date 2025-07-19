@@ -63,7 +63,7 @@ From the project folder, run:
 python etl_coingecko_to_sql.py
 ```
 
-This will pull the top 5 cryptocurrencies from the CoinGecko API and insert the data into your DailyPrices table in SQL Server.
+This will pull the top 5 cryptocurrencies from the CoinGecko API and insert the data into the DailyPrices table in SQL Server.
 
 ### 5. Prerequisites
 
