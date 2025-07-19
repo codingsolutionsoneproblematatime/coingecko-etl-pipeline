@@ -1,4 +1,4 @@
-# CoinGecko ETL Pipeline
+# Data (CoinGecko) ETL Pipeline
 
 This project is an end-to-end automated data pipeline that extracts cryptocurrency market data from the [CoinGecko API](https://www.coingecko.com/en/api), transforms it using Python, and loads it into a SQL Server database. The pipeline is designed to support business intelligence reporting with tools like Power BI.
 
