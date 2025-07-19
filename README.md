@@ -8,6 +8,12 @@ This project is an end-to-end automated data pipeline that extracts cryptocurren
 - Loads data into a local SQL Server table (`DailyPrices`)
 - Easily extendable for scheduling, historical analysis, or Power BI dashboards
 
+## Automation & Logging
+
+- The ETL script includes error-handling for API requests and SQL Server connection issues.
+- Errors are logged to a local file (`etl_errors.log`) for debugging and auditing.
+- The script is designed to be scheduled using Windows Task Scheduler for automated daily data pulls.
+
 ## Tech Stack
 - Python
 - SQL Server
